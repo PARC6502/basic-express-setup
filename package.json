@@ -1,0 +1,19 @@
+{
+  "name": "minimal-node-setup",
+  "version": "1.0.0",
+  "description": "A minimal node setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ibby <contact@ibby.me> (ibby.me)",
+  "license": "Unlicense",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0"
+  }
+}
