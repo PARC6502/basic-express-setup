@@ -1,7 +1,7 @@
 {
-  "name": "minimal-node-setup",
+  "name": "basic-express-setup",
   "version": "1.0.0",
-  "description": "A minimal node setup",
+  "description": "A basic express server",
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js",
@@ -10,10 +10,16 @@
   "keywords": [],
   "author": "Ibby <contact@ibby.me> (ibby.me)",
   "license": "Unlicense",
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
   "devDependencies": {
     "nodemon": "^1.18.10"
   },
   "dependencies": {
-    "dotenv": "^7.0.0"
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4"
   }
 }
